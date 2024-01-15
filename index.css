@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#Container {
+    height: 600px;
+    background-image: url('WhatsApp Image 2024-01-11 at 7.03.47 AM.jpeg');
+    background-size: cover;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.8);
+    background-blend-mode: multiply;
+}
+
+.child {
+    text-align: left;
+    margin: 1%; 
+    padding: 10px;
+    top: 10px;
+    left: 100px;
+    display: flex;
+}
+
+h1 {
+    color: white;
+    font-size: xx-large;
+    margin: 0; 
+    top: 10px;
+    left: 100px;
+    display: flex;
+}
+
+.small {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.small ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-self: flex-end;
+    text-decoration: none;
+}
+.small li{
+    margin: 10px;
+    text-decoration: none;
+}
+.small a{
+    margin-top: 10px;
+    font-size: 10px;
+    color:white;
+    text-decoration: none;
+}
+
+#Choose-files {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 10px;
+}
+
+.tempo {
+    position: absolute;
+    top: 32%; 
+    left: 45%; 
+    background-color: rgb(143, 137, 137);
+    border-radius: 25px;
+    padding: 13px 25px ;
+    opacity: 85%;
+    
+}
+.tempo a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    word-spacing: 1px;
+}
+.agency{
+   font-size: 20px;
+   color: white;
+   position: absolute;
+   top: 39%;
+   left: 39%;
+}
+.s{
+    position: absolute;
+    top: 43%;
+    left: 30%;
+    color: white;
+}
+.button-1 button{
+    position: absolute;
+    left: 47%; 
+    top: 47%; 
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 25px;
+    padding: 13px 25px ;
+    text-decoration: none; 
+    margin-left: 15px ;
+    color: white;
+    font-size: 8px;
+    text-decoration-line: none;
+    text-align:center ;
+}
+#main{
+    height: 200px;
+    width: auto;
+    background-color: white;
+}
+.button-2 button{
+        position: absolute;
+        left: 47%; 
+        top: 85%; 
+        border: 1px solid white;
+        background:papayawhip;
+        border-radius: 25px;
+        padding: 13px 25px ;
+        text-decoration: none; 
+        margin-left: 15px ;
+        color: pink;
+        font-size: 10px;
+        text-decoration-line: none;
+        text-align:center ;
+    }
+    .services{
+        position: absolute;
+        top: 88%; 
+        left: 39%; 
+        padding: 13px 25px ;
+        opacity: 85%;
+        
+    
+    }
+    .services h1{
+    
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+        word-spacing: 1px;
+    }
+    h1 span{
+        color: red;
+    }
+    .para{
+        position: absolute;
+        top: 94%;
+        left: 41%;
+        color:black;
+    }
+
+.services{
+    position: absolute;
+    top: 88%; 
+    left: 39%; 
+    padding: 13px 25px ;
+    opacity: 85%;
+    
+
+}
+.services h1{
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    word-spacing: 1px;
+}
+h1 span{
+    color: red;
+}
+.para{
+    position: absolute;
+    top: 94%;
+    left: 41%;
+    color:black;
+}
+#four{
+   display: flex;
+   display: inline-flex;
+   /* height: 400px;
+    width: 400px;
+    background-color: white;
+    justify-content:space-evenly;*/
+    
+
+}
+.one{
+    border: 3px solid wheat;
+    height:200px ;
+    width: 300px;
+    /*margin:200px ;*/
+    top: 80%;
+    /*padding:40px;
+    margin-right: 10px;
+    margin-left: 50px;*/
+    margin: 200px;
+    padding-left: 30px;
+    border: 2px solid wheat;
+    box-shadow: 6px 6px rgb(168,156, 156);
+}
+.envelope{
+    text-align: center;
+    top :90%;
+
+}
+
+.icon{
+    color: red;
+    text-align: center;
+    padding: 40px;
+    height: 50px;
+    width: 50px;
+    margin-left: 70px;
+
+}
+#head{
+    background-color: white;
+    height:200 ;
+
+}
+.button-3 button{
+    position: absolute;
+    left: 47%; 
+    top: 150%; 
+    border: 1px solid white;
+    background:papayawhip;
+    border-radius: 25px;
+    padding: 13px 25px ;
+    text-decoration: none; 
+    margin-left: 15px ;
+    color: red;
+    font-size: 10px;
+    text-decoration-line: none;
+    text-align:center ;
+}
+.check{
+    position: absolute;
+    top: 153%; 
+    left: 43%; 
+    padding: 13px 25px ;
+    opacity: 85%;
+    
+
+}
+.check h1{
+    
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    word-spacing: 1px;
+}
+h1 span{
+    color: red;
+}
+.lorem{
+    position: absolute;
+    top: 158%;
+    left: 41%;
+    color:black;
+}
+
+#ask{
+    display: flex;
+    display: inline-flex;
+    padding: 100px;
+    padding-left: 70px;
+}
+#button-4{
+     border-radius: 25px;
+     color: black;
+     width: 70%;
+     height: 60%;
+     background-color: white;
+}
+#button-4:hover{
+    color: red;
+}
+
